@@ -1,0 +1,122 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="More About Dalango">
+	<meta name="keywords" content="Dalango,characters,artwork,HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Sarah Flynn">
+	<link rel="stylesheet" href="d_stylesheet.css">
+	
+	<div class="divider">
+	<table style="width:100%;"><tr><th>
+	<div class="collapse">
+			<img src="img/menu.png" alt="Main Menu" height="30" width="30">
+	</div>
+	<div class="content" style="position:absolute;"><br />
+		<a href="char/meuna.html">MEUNA</a> <br /><br />
+		<a href="char/nengie.html">NENGIE</a> <br /><br />
+		<a href="char/nathaniel.html">NATHANIEL</a> <br /><br />
+		<a href="char/bryne.html">BRYNE</a> <br /><br />
+		<a href="char/dyka.html">DYKA</a> <br /><br />
+		<a href="char/callum.html">CALLUM</a> <br /><br />
+	</div></th>
+		
+	<th><div style="width: 100%; position: relative;">
+	<center>
+	
+		<a href="index.html">HOME</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+		<a href="magnos_institute.html">MAGNOS INSTITUTE</a>  &nbsp;&nbsp; | &nbsp;&nbsp;
+		<a href="about.html">ABOUT</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+		<a href="contact.html">CONTACT</a>
+	
+	</center>
+	</div></th>
+		</tr>
+		</table>
+			
+			
+	</div>
+	
+	<!––hide the script for easy viewing C:––!>
+	<script>
+var coll = document.getElementsByClassName("collapse");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</head>
+
+<body>
+<center>
+<div>
+	<p>
+		Welcome to the contact page. <strong>MAGNOS INSTITUTE of BIOLOGICAL GOLEM SCIENCES</strong> is an esteemed campus focused on the advancement of biological studies and golem-related sciences. For student enrollment help, institute information, general admissions contacts, or general counceling needs, please see the contact form below and reach out to us as desired. <strong>MAGNOS INSTITUTE</strong> staff and faculty value your interest and take pride in our timely response system.
+	</p>
+</div>
+<div style="width: 800px; text-align: center; display: inline-block;">
+	<form class="styleText" id="questions" action="?" method="post" style="padding: 0px 80px 50px 80px;">
+		<fieldset id="inquiry">
+			<legend>Inquiries</legend> 
+				<table>
+					<tr>
+						<td><label for="name">Full Name*</label></td>
+						<td><input name="conName" id="name" type="text" placeholder="John Smith" /></td>
+					</tr>
+					<tr>
+						<td><label for="name">Email*</label></td>
+						<td><input name="conName" id="name" type="text" placeholder="email@example.com" /></td>
+					</tr>
+				</table>
+			
+		</fieldset>
+	<form>
+</div>
+
+</center>
+</body>
+
+<footer>
+	<div class="footer" style="font-family: 'Mabry';">
+		<center> 
+			<table>
+				<tr>
+					<th style="padding-left: 20px;
+					padding-right:20px;">
+						SARAH FLYNN
+					</th>
+					<th style="padding-left: 20px;
+					padding-right:20px;">
+						(C) 2019
+					</th>
+					<th style="padding-left: 20px;
+					padding-right:20px;">
+						HTML&CSS 101
+					</th>
+					<th style="padding-left: 20px;
+					padding-right:20px;">
+						All Rights Reserved
+					</th>
+					<th style="padding-left: 20px;
+					padding-right:20px;">
+					<a style="color: #2b2b2e;" target="_blank:" href="http://therainbowsmoothie.weebly.com">
+						VISIT RAINBOWSMOOTHIE
+					</a>
+					</th>
+				</tr>
+			</table>
+		</center>
+	</div>
+</footer>
+
+</html>

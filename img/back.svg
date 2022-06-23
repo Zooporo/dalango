@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="back.svg"
+   viewBox="0 0 73.919998 65.279999"
+   height="65.279999"
+   width="73.919998"
+   id="svg10"
+   version="1.1"
+   inkscape:version="1.0beta1 (fe3e306, 2019-09-17)">
+  <style
+     id="style834"></style>
+  <title
+     id="title877">direction arrow</title>
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>direction arrow</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 32.64 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="73.919998 : 32.64 : 1"
+       inkscape:persp3d-origin="36.959999 : 21.76 : 1"
+       id="perspective859" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     inkscape:document-rotation="0"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1561"
+     inkscape:window-height="1040"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="5.6179634"
+     inkscape:cx="34.309712"
+     inkscape:cy="47.080919"
+     inkscape:window-x="156"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g18"
+     inkscape:snap-grids="true"
+     showguides="false" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g18"
+     style="display:inline">
+    <path
+       style="fill:#e7e7e7;fill-opacity:1;stroke:none;stroke-width:0.903621px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 64.360507,-0.12546976 34.040564,32.708499 64.360507,65.42851 H 34.039698 L 4.3974805,32.708499 34.039698,-0.12546976 Z"
+       id="path875"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1" />
+</svg>

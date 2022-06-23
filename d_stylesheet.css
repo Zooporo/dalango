@@ -1,0 +1,333 @@
+/*my declaration of WorkSans Bold!*/
+@font-face {
+  font-family: 'WorkSans';
+  src: url('fnt/WorkSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} /*my declaration of Mabry Pro...*/
+@font-face {
+  font-family: 'Mabry';
+  src: url('fnt/Mabry-Pro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} /*declaraction of Modes...*/
+@font-face {
+  font-family: 'Modes';
+  src: url('fnt/MODES.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('fnt/Inconsolata.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*link colors!! before they get too ugly...*/
+/* unvisited link */
+a:link { color: white;}
+/* visited link */
+a:visited { color: white;}
+/* mouse over link */
+a:hover { color: #f0f0f0;}
+/* selected link */
+a:active { color: #ff6347;}
+/*link styling?*/
+a {
+	text-decoration: none;\
+}
+
+p{
+	padding: 50px;
+	font-family: Mabry;
+	width: 60%;
+	text-align: justify;
+	margin: 0px;
+	color: #6f6c7a;">
+}
+
+fieldset{
+	border-width: 18px;
+	border-color: #ffc4bc;
+	border-style: solid;
+} legend{
+	font-family: WorkSans;
+	font-size: 40px;
+	color: #ffc4bc;
+	text-transform: uppercase;
+} label{
+	font-family: Mabry;
+	font-size: 18px;
+	color: #6f6c7a;
+	text-transform: uppercase;
+	padding-right: 15px;
+}
+
+/*CSS GRID FORMATTING*/
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+		"sideL cent sideR"
+		"sideL cent sideR"
+		"sideL cent sideR";
+}
+
+.box1 {
+	grid-area: sideL;
+	background-color: #ffc4bc;
+} .box2 {
+	grid-area: cent;
+	background-color: #d5e8e4;
+} .box3 {
+	grid-area: sideR;
+	background-color: #ffddbf;
+}
+/*END OF CSS GRID*/
+
+.divider {
+	font-family: "WorkSans", Times, serif;
+	font-size: 22px;
+	color: white;
+	background-color: #ffc4bc;
+	width: 101%;
+	height: 38px;
+	margin: -20px;
+	margin-bottom: 15px;
+	padding: 15px 5px 5px 15px;
+}
+
+h1{
+	font-family: WorkSans;
+	font-size: 100px;
+	color: #ff7566;
+	margin-bottom: 0px;
+}
+
+head {
+	/*display: inline-block;*/
+	margin-bottom: 10px
+}
+
+.character {
+	z-index: 1;
+	width: 100%;
+	padding: 10px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.collapse {
+	background-color: transparent;
+	width: 30px;
+	cursor: pointer;
+	border: none;
+	z-index: 9;
+}
+
+.content {
+	z-index: 9;
+	font-family: "WorkSans", Times, serif;
+	font-size: 22px;
+	color: white;
+	padding: 0 10px;
+	background-color: #ffc4bc;
+	max-height: 0;
+	max-width: 160px;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+/*slideshow positioning CSS*/
+.container {
+	grid-area: sideL;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	float: left;
+	padding: 50px 0px 0px 0px;
+}
+.tag {
+	grid-area: sideL;
+	float: left;
+	position: absolute;
+	left: 107px;
+	top: 98px;
+	z-index: 1000;
+	background-color: transparent;
+	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+/*end of slideshow positioning CSS!!*/
+
+/*-----*/
+
+/*for all of these style boxes, the default color is the light coral pink.*/
+/*use this prewritten code:
+<span style="background-color: #??????"></span>
+...to change for each page.*/
+.styleFrame {
+	display: inline-block;
+	background-color: #ffc4bc;
+	padding: 10px;
+	margin: 10px;
+} .styleBox {
+	display: inline-block;
+	background-color: white;
+	font-family: 'WorkSans', Times, serif;
+	font-size: 55px;
+	padding:  0px 5px 0px 5px; /*TOP LEFT BOTTOM RIGHT*/
+	margin-bottom: 10px;
+	text-transform: uppercase;
+} .styleLite {
+	background-color: white;
+	font-size: 20px;
+	font-family: "Modes", serif;
+	display: inline-block;
+	padding: 3px 5px 0px 5px;
+	margin: 2px 0px 2px 0px;
+} .styleText {
+	font-family: 'Mabry', serif;
+	font-size: 16px;
+	text-align: left;
+} .styleButton {
+	color: white;
+	font-size: 28px;
+	font-family: 'Modes', serif;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	padding:  5px 5px 0px 5px;
+} .arrow { /*fill is per page*/
+	fill-opacity:1;
+	stroke:none;
+	stroke-width:1px;
+	stroke-linecap:butt;
+	stroke-linejoin:miter;
+	stroke-opacity:1;
+	width: 20%;
+	height: 20%;
+	margin: 0;
+	padding: 10px;
+}	/* STUFF FOR LATER! bc i can't figure it out...
+.stylePage {
+	position: absolute;
+	background-color: #ff6347;
+	width: 100%;
+	height: 100%;
+	display: inline-block;	
+} #styleSlide: target ~ .stylepage {
+	-webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+} end of styleboxes.*/
+
+
+.footer {
+	font-family: 'Mabry', serif;
+	font-size: 10px;
+	color: #2b2b2e;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	margin: 200px 0px 50px 0px;
+}
+
+/*Slideshow CSS*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*end of Slideshow CSS*/
